@@ -1,1 +1,1 @@
-Mods here require [Steamodded](https://github.com/Steamopollys/Steamodded/) to play. For installing mods, check README of [Steamodded](https://github.com/Steamopollys/Steamodded/).
+Mods here require [Steamodded](https://github.com/Steamopollys/Steamodded/) to play. For installing mods, check README of Steamodded. You should move the `.lua` or other files inside the folders, not the folders themselves.
