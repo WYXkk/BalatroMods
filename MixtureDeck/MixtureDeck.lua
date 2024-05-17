@@ -45,7 +45,6 @@ mixturedeck:register()
 
 local old_Backtrigger_effect=Back.trigger_effect
 function Back:trigger_effect(args)
-	old_Backtrigger_effect(self,args)
 
 	if self.name == 'Mixture Deck' then
 		if args.context == 'eval' and G.GAME.last_blind and G.GAME.last_blind.boss then
@@ -111,6 +110,7 @@ function Back:trigger_effect(args)
 			return args.chips, args.mult
 		end
 	end
+	return old_Backtrigger_effect(self,args)
 end
 
 local Backapply_to_runRef = Back.apply_to_run
